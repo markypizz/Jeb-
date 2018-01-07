@@ -18,7 +18,7 @@
 		23CBD2C71FE799770026F42C /* jebisawaste.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CBD2C21FE799770026F42C /* jebisawaste.wav */; };
 		23CBD2C81FE799770026F42C /* steadyhand.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CBD2C31FE799770026F42C /* steadyhand.wav */; };
 		23CBD2C91FE799770026F42C /* excusemejeb.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CBD2C41FE799770026F42C /* excusemejeb.wav */; };
-		23CBD2CD1FE79BB90026F42C /* standardop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23CBD2CC1FE79BB90026F42C /* standardop.wav */; };
+		23E622D82001F2AB00AFC75B /* standardop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 23E622D72001F2AB00AFC75B /* standardop.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		23CBD2C21FE799770026F42C /* jebisawaste.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jebisawaste.wav; sourceTree = "<group>"; };
 		23CBD2C31FE799770026F42C /* steadyhand.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = steadyhand.wav; sourceTree = "<group>"; };
 		23CBD2C41FE799770026F42C /* excusemejeb.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = excusemejeb.wav; sourceTree = "<group>"; };
-		23CBD2CC1FE79BB90026F42C /* standardop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = standardop.wav; path = ../../../../../jeb/standardop.wav; sourceTree = "<group>"; };
+		23E622D72001F2AB00AFC75B /* standardop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = standardop.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,8 +82,8 @@
 		23CBD2A91FE798660026F42C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				23E622D72001F2AB00AFC75B /* standardop.wav */,
 				239370101FE8A3C80057470F /* nationaltragedy.wav */,
-				23CBD2CC1FE79BB90026F42C /* standardop.wav */,
 				23CBD2C41FE799770026F42C /* excusemejeb.wav */,
 				23CBD2C11FE799770026F42C /* jebisamess.wav */,
 				23CBD2C21FE799770026F42C /* jebisawaste.wav */,
@@ -157,7 +157,7 @@
 				23CBD2C81FE799770026F42C /* steadyhand.wav in Resources */,
 				23CBD2C61FE799770026F42C /* jebisamess.wav in Resources */,
 				235262C51FE4F56A009CE7E2 /* Main.storyboard in Resources */,
-				23CBD2CD1FE79BB90026F42C /* standardop.wav in Resources */,
+				23E622D82001F2AB00AFC75B /* standardop.wav in Resources */,
 				23CBD2C71FE799770026F42C /* jebisawaste.wav in Resources */,
 				239370111FE8A3C80057470F /* nationaltragedy.wav in Resources */,
 				23CBD2C91FE799770026F42C /* excusemejeb.wav in Resources */,
