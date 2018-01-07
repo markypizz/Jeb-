@@ -45,6 +45,7 @@ class ViewController: UIViewController {
         let image = UIImage(named: imageName)
         let imageView = UIImageView(image: image!)
         
+        //Random x and y coordinates
         let xCord = (Int(arc4random_uniform(UInt32(self.jebView.frame.width))) - 398/2)
         let yCord = (Int(arc4random_uniform(UInt32(self.jebView.frame.height))) - 209/2)
         
