@@ -7,9 +7,9 @@ Use the jeb counter at the bottom of the screen to keep track of the number of j
 Oh did I mention that there are Jeb soundbites BUILT-IN?
 
 The app supports many features such as:
-Landscape & Portrait view
-Aforementioned jeb counter
-Slider to disable soundbites
+- Landscape & Portrait view
+- Aforementioned jeb counter
+- Slider to disable soundbites
 
 I understand that this app would make me millions on the app store, I get that.
 However, I currently can not fork up the $99 apple developer license to do so.
