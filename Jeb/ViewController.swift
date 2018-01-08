@@ -11,7 +11,13 @@ import AVFoundation
 
 class ViewController: UIViewController {
     let bushNum = 911
-    var jebCount = 0
+    
+    var jebCount = 0 {
+        didSet {
+            jebLabel.text = "Jeb Count: \(jebCount)"
+        }
+    }
+    
     var audioPlayer:AVAudioPlayer!
     
     var audioFiles = ["pleaseclap","excusemejeb","jebisamess","jebisawaste","steadyhand","standardop"]
@@ -33,7 +39,7 @@ class ViewController: UIViewController {
     
     @IBAction func handleTap(_ sender: Any) {
         //Update jeb Count variable
-        jebCount = jebCount + 1
+        jebCount += 1
         
         var imageName = "jebface"
         
@@ -85,6 +91,6 @@ class ViewController: UIViewController {
             audioPlayer.play()
         }
         
-        jebLabel.text = "Jeb Count: \(jebCount)"    }
+    }
 }
 
